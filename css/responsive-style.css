@@ -1,5 +1,8 @@
 @media (max-width:992px) {
     /* header section style */
+    .header{
+        display: none;
+    }
     /* End header section style */
 
 
