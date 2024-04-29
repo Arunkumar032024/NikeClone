@@ -12,17 +12,18 @@
     --black-color: #000;
     --white-color: #fff;
     --light-black-color: #666;
-    --light-white-color: #bbb;
-    --font-xxl: 4rem;
-    --font-xl: 3rem;
-    --font-lg: 2.125rem;
-    --font-md: 1.625rem;
+    --light-white-color: #eee;
+    --font-xxl: 3rem;
+    --font-xl: 2.125rem;
+    --font-lg: 1.175rem;
+    --font-md: 1rem;
     --font-sm: 0.625rem
 }
 html{
     scroll-behavior: smooth;
 }
 a{
+    text-decoration: none;
     transition: all .3s ease;
 }
 i.fa{
@@ -47,6 +48,27 @@ i.fa{
 /* End custom style */
 
 /* header section style */
+.header{
+    width: 100%;
+    background-color: var(--light-white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 1.5rem;
+}
+.header img{
+    width: 40px;
+}
+.header div a{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: var(--font-md);
+}
+.header div a:hover{
+    color: var(--light-black-color);
+}
+
 /* End header section style */
 
 
