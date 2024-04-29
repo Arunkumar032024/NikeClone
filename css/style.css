@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* custom style */
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +8,42 @@
     font-family: "Inter", sans-serif;
 
 }
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --light-black-color: #666;
+    --light-white-color: #bbb;
+    --font-xxl: 4rem;
+    --font-xl: 3rem;
+    --font-lg: 2.125rem;
+    --font-md: 1.625rem;
+    --font-sm: 0.625rem
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    transition: all .3s ease;
+}
+i.fa{
+    padding: 10px;
+    border-radius: 50%;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: var(--font-md);
+    font-weight: 700;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    transition: all .3s ease;
+}
+.btn:hover{
+    background-color: var(--light-black-color);
+}
 
-/* custom style */
 /* End custom style */
 
 /* header section style */
