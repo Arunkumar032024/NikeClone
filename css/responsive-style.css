@@ -3,6 +3,27 @@
     .header{
         display: none;
     }
+
+    nav{
+        justify-content: space-between;
+    }
+    nav .middle{
+        display: none;
+    }
+    nav .right {
+        flex: 1;
+        max-width: 400px;
+    }
+
+    nav .right .inputbox{
+        display: none;
+    }
+
+    nav .right #search,
+    nav .right #list,
+    nav .right #user{
+        display: block;
+    }
     /* End header section style */
 
 
