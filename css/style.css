@@ -171,6 +171,33 @@ header .offer-container a{
 
 
 /* main section style */
+.home-banner{
+    width: 90%;
+    margin: auto;
+    background-image: url('../images/img/banner-2.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.video-container{
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+.video-container div{
+    margin: 1rem 0;
+}
+.video-container p:nth-child(2){
+    font-size: var(--font-xxl);
+    font-weight: 900;
+}
+.video-container video{
+    width: 100%;
+}
 /* End main section style */
 
 
