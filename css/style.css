@@ -15,7 +15,7 @@
     --light-white-color: #eee;
     --font-xxl: 3rem;
     --font-xl: 2.125rem;
-    --font-lg: 1.175rem;
+    --font-lg: 1.625rem;
     --font-md: 1rem;
     --font-sm: 0.625rem
 }
@@ -178,7 +178,7 @@ header .offer-container a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100vw;
 }
 
 .video-container{

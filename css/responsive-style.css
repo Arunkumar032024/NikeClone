@@ -52,6 +52,9 @@
 
 
     /* main section style */
+    .video-container p:nth-child(2){
+        font-size: var(--font-xl);
+    }
     /* End main section style */
 
 
