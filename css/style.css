@@ -189,7 +189,7 @@ header .offer-container a{
 }
 
 .video-container div{
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 .video-container p:nth-child(2){
     font-size: var(--font-xxl);
