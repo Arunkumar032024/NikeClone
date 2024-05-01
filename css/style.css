@@ -188,7 +188,7 @@ header .offer-container a{
 
 }
 
-.video-container p:nth-child(3){
+.video-container div{
     margin-bottom: 1rem;
 }
 .video-container p:nth-child(2){
