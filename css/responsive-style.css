@@ -1,29 +1,33 @@
 @media (max-width:992px) {
+
     /* header section style */
-    .header{
+    .header {
         display: none;
     }
 
-    nav{
+    nav {
         justify-content: space-between;
     }
-    nav .middle{
+
+    nav .middle {
         display: none;
     }
+
     nav .right {
         flex: 1;
         max-width: 400px;
     }
 
-    nav .right .inputbox{
+    nav .right .inputbox {
         display: none;
     }
 
     nav .right #search,
     nav .right #list,
-    nav .right #user{
+    nav .right #user {
         display: block;
     }
+
     /* End header section style */
 
 
@@ -34,26 +38,52 @@
     /* footer section style */
     /* End footer section style */
 }
+
 @media (max-width:767px) {
     /* header section style */
     /* End header section style */
 
 
     /* main section style */
+    .home-banner {
+        min-height: 100vw;
+    }
+
+    .dont-miss-container .div{
+        flex-direction: column;
+    }
+
+    .dont-miss-container .left,
+    .dont-miss-container .right {
+        width: 100%;
+        min-height: 100vw;
+    }
+
     /* End main section style */
 
 
     /* footer section style */
     /* End footer section style */
 }
+
 @media (max-width:592px) {
     /* header section style */
     /* End header section style */
 
 
     /* main section style */
-    .video-container p:nth-child(2){
+    .video-container p:nth-child(2) {
         font-size: var(--font-xl);
+    }
+    .dont-miss-container .content p:nth-child(1){
+        font-size: var(--font-sm);
+    }
+    .dont-miss-container .content p:nth-child(2){
+        font-size: var(--font-md);
+    }
+    .dont-miss-container .content .btn{
+        margin-bottom: 1rem;
+        font-size: var(--font-sm);
     }
     /* End main section style */
 
@@ -61,18 +91,31 @@
     /* footer section style */
     /* End footer section style */
 }
+
 @media (max-width:480px) {
     /* header section style */
     /* End header section style */
 
 
     /* main section style */
+    .spot-container .spot-box{
+        width: 100vw;
+        height: 100vw;
+    }
+    .spot-container .spot-box .img{
+        /* height: calc(100vw-100px); */
+        height: 80vw;
+    }
+    .spot-container .spot-box .title{
+        margin: 1rem auto;
+    }
     /* End main section style */
 
 
     /* footer section style */
     /* End footer section style */
 }
+
 @media (max-width:333px) {
     /* header section style */
     /* End header section style */

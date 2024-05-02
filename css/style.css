@@ -42,6 +42,7 @@ i.fa{
     background-color: var(--black-color);
     color: var(--white-color);
     transition: all .3s ease;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: var(--light-black-color);
@@ -139,6 +140,7 @@ nav .inputbox input{
     outline: none;
     background-color: transparent;
     flex: 1;
+    max-width: 100px;
     font-size: var(--font-lg);
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -178,7 +180,7 @@ header .offer-container a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vw;
+    min-height: 100vh;
 }
 
 .video-container{
@@ -197,6 +199,114 @@ header .offer-container a{
 }
 .video-container video{
     width: 100%;
+}
+
+.dont-miss-container h2{
+    font-size: var(--font-lg);
+    font-weight: 500;
+    margin-left: 2rem;
+}
+.dont-miss-container .div{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.dont-miss-container .left,
+.dont-miss-container .right{
+    width: 50%;
+    min-height: 100vh;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.dont-miss-container .left{
+    background-image: url('../images/img/miss-1.avif');
+}
+.dont-miss-container .right{
+    background-image: url('../images/img/miss-2.avif');
+}
+.dont-miss-container .content{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 2rem;
+    color: var(--white-color);
+}
+.dont-miss-container .content p:nth-child(1){
+    font-size: var(--font-md);
+    margin-bottom: 1rem;
+}
+.dont-miss-container .content p:nth-child(2){
+    font-size: var(--font-lg);
+    margin-bottom: 1rem;
+}
+.dont-miss-container .content .btn{
+    margin-bottom: 1rem;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+.dont-miss-container .content .btn:hover{
+    filter: brightness(0.7);
+}
+
+.spot-container{
+    width: 100%;
+    padding: 2rem 0;
+}
+.spot-container p{
+    padding: 0 2rem;
+    font-size: var(--font-lg);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.spot-container p span{
+    font-size: var(--font-md);
+}
+.spot-container p span i{
+    background-color: var(--light-black-color);
+    color: var(--white-color);
+}
+.spot-container p span i:hover{
+    filter: brightness(1.5);
+}
+.spot-container .div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    overflow: hidden;
+    overflow-x: auto;    
+    padding: 0 1rem 3rem;
+}
+.spot-container .div::-webkit-scrollbar{
+    background-color: var(--white-color);
+    height: 3px;
+}
+.spot-container .div::-webkit-scrollbar-thumb{
+    background-color: var(--black-color);
+}
+.spot-container .spot-box{
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: var(--light-white-color);
+}
+.spot-container .spot-box .img{
+    height: 400px;
+}
+.spot-container .img img{
+    width: 100%;
+    height: 100%;
+}
+.spot-container .spot-box .title{
+    margin: 2rem auto;
+    width: fit-content;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 /* End main section style */
 
