@@ -49,12 +49,15 @@
         min-height: 100vw;
     }
 
-    .dont-miss-container .div{
+    .dont-miss-container .div,
+    .summer-container .div{
         flex-direction: column;
     }
 
     .dont-miss-container .left,
-    .dont-miss-container .right {
+    .dont-miss-container .right,
+    .summer-container .left,
+    .summer-container .right {
         width: 100%;
         min-height: 100vw;
     }
@@ -102,6 +105,9 @@
         width: 100vw;
         height: 100vw;
     }
+    .sport-container .spot-box{
+        height: 120vw;
+    }
     .spot-container .spot-box .img{
         /* height: calc(100vw-100px); */
         height: 80vw;
@@ -122,6 +128,12 @@
 
 
     /* main section style */
+    .sport-container .spot-box{
+        height: 115vw;
+    }
+    .sport-container .content .btn{
+        display: none;
+    }
     /* End main section style */
 
 
