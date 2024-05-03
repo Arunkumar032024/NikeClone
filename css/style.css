@@ -97,12 +97,13 @@ nav .middle ul{
     width: 80%;
     margin: auto;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 nav ul li a{
-    font-size: var(--font-lg);
+    font-size: var(--font-md);
     font-weight: 500;
-    padding: 9px 5px;
+    /* padding: 9px 5px 0; */
     color: var(--black-color);
     transition: all .1s ease;
 }
