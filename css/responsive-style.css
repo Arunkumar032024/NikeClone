@@ -30,19 +30,15 @@
 
     /* End header section style */
 
-
-    /* main section style */
-    /* End main section style */
-
-
     /* footer section style */
+    .first-footer{
+        width: 100%;
+        margin: 2rem 0;
+    }
     /* End footer section style */
 }
 
-@media (max-width:767px) {
-    /* header section style */
-    /* End header section style */
-
+@media (max-width:768px) {
 
     /* main section style */
     .home-banner {
@@ -63,16 +59,9 @@
     }
 
     /* End main section style */
-
-
-    /* footer section style */
-    /* End footer section style */
 }
 
 @media (max-width:592px) {
-    /* header section style */
-    /* End header section style */
-
 
     /* main section style */
     .video-container p:nth-child(2) {
@@ -92,13 +81,43 @@
 
 
     /* footer section style */
+    .first-footer{
+        grid-template-columns: 1fr;
+    }
+    .first-footer ul{
+        display: none;
+    }
+    .first-footer div{
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+    }
+    .first-footer div:hover ul{
+        display: inline-block;
+    }
+    .second-footer .grid{
+        grid-template-columns: 1fr;
+    }
+    .second-footer .grid div:nth-child(1){
+        border-bottom: 1px solid var(--light-black-color);
+    }
+    .second-footer .grid div:nth-child(2) ul,
+    .second-footer .grid div:nth-child(3) ul{
+        display: none;
+    }
+    .second-footer .grid div:nth-child(2):hover ul,
+    .second-footer .grid div:nth-child(3):hover ul{
+        display: inline-block;
+    }
+    .second-footer .grid div:nth-child(4){
+        text-align: left;
+    }
+    .second-footer .terms p span{
+        display: block;
+    }
     /* End footer section style */
 }
 
 @media (max-width:480px) {
-    /* header section style */
-    /* End header section style */
-
 
     /* main section style */
     .spot-container .spot-box{
@@ -117,15 +136,9 @@
     }
     /* End main section style */
 
-
-    /* footer section style */
-    /* End footer section style */
 }
 
 @media (max-width:333px) {
-    /* header section style */
-    /* End header section style */
-
 
     /* main section style */
     .sport-container .spot-box{
@@ -136,7 +149,4 @@
     }
     /* End main section style */
 
-
-    /* footer section style */
-    /* End footer section style */
 }
